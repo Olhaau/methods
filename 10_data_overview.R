@@ -35,7 +35,7 @@ plot(data[,"Y"], main="Y")
 
 print("Gemeinsame Betrachtung")
 library("scatterplot3d")
-pairs(as.formula("y~."), data=data, main ="Alle Variablen", col=data[,"Y"])
+pairs(as.formula("Y~."), data=data, main ="Alle Variablen", col=data[,"Y"])
 
 print("mit caret")
 library("caret")
